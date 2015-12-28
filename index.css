@@ -1,0 +1,132 @@
+/*** General Styling
+************************/
+
+* {margin: 0; padding:0;}
+
+img {width:100%;}
+			
+body{
+	background-image:url('footballfieldlights2.jpg'); 
+	background-size:100%; 
+	background-repeat:no-repeat; 
+	background-attachment:fixed;
+	background-color: black; 
+}
+#Wrapper{
+	max-width:1360px; 
+	height:768px; 
+	margin: 0;
+	padding:0;
+}			
+/*** Header and Navigation Styling
+**************************************/
+header {
+	margin:145px 0 0 0;
+	width:100%;  
+	text-align:center;
+	color:black;
+	text-shadow: 1px 1px 15px white;
+	font-family: 'Arimo', sans-serif;
+	font-size: 20px;
+			
+}
+.footballicon { 
+	width: 8%; 
+	border-radius:100%; 
+	display:inline-block;
+	margin: -20px 0px 0px; 
+	box-shadow:1px 1px 20px white;
+}
+nav {
+	width:100%;text-align:center; margin: 0; 
+}			
+nav li{
+	display:inline-block; 
+	margin-right:10px; 
+	text-align:center;
+	border-radius:3.14159%;
+	font-size:15px;
+}
+nav li a{
+	text-decoration:none; 	
+	color:white;
+	text-shadow: 1px 1px 15px green;	
+}
+nav li a:hover {
+	color:black;
+}
+/***ContentBox list Elements Styling******
+*****************************************/
+.cont4box1 {
+	width:100%; margin: 0;
+}		
+.cont4box1 li {
+	float:left;
+	margin: 50px 5% 0 5%;
+	padding: 0;
+	width:31.14159%;; 
+	height:auto; 
+	background-color:black; 
+	text-align:center; 
+	color:white; 
+	border: 1px solid white;
+	border-radius:3.14159%;
+	list-style:none;
+	box-shadow: 1px 1px 20px white;
+}
+.cont4box2 li {
+	float:left;
+	margin: 20px auto;
+	padding: 0;
+	width:85%; 
+	height:auto; 
+	background-color:black; 
+	text-align:center; 
+	color:white; 
+	border: 1px solid white;
+	border-radius:3.14159%;
+	list-style:none;
+	box-shadow: 1px 1px 20px white;
+}
+li p {
+	margin: 2px 5px; font-size:14px; line-height:1.2;
+}
+/***Media Q for min-width 640px***
+	***********************************/
+@media screen and (min-width: 640px) {
+
+	.cont4box1 li {
+	float:left;
+	margin: 110px 5% 0 5%;
+	padding: 0;
+	width:30.14159%;; 
+	height:auto; 
+	background-color:black; 
+	text-align:center; 
+	color:white; 
+	border: 1px solid white;
+	border-radius:3.14159%;
+	list-style:none;
+	box-shadow: 1px 1px 20px white;
+	}
+}
+	/***Media Q for min-width 800px***
+	***********************************/
+	@media screen and (min-width: 800px) {
+
+.cont4box1 li {
+	Float:left;
+	margin: 20px 1% 0 1.5%;
+	padding: 0;
+	width:20%; 
+	height:auto; 
+	background-color:black; 
+	text-align:center; 
+	color:white; 
+	border: 1px solid white;
+	border-radius:3.14159%;
+	list-style:none;
+	box-shadow: 1px 1px 20px white;
+ 	}
+}			
+			
